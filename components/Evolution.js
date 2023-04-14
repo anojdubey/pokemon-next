@@ -54,6 +54,7 @@ export default function Evolution({ evolution }) {
                   sx={{
                     textAlign: "center",
                     fontFamily: "Gill Sans MT",
+                    color: "#000",
                   }}
                   variant="h6"
                 >
@@ -63,6 +64,7 @@ export default function Evolution({ evolution }) {
                   sx={{
                     textAlign: "center",
                     fontFamily: "Gill Sans MT",
+                    color: "#000",
                   }}
                   variant="h6"
                 >
@@ -80,6 +82,7 @@ export default function Evolution({ evolution }) {
                 <AiOutlineArrowRight
                   style={{
                     fontSize: "3.5rem",
+                    color: "#000",
                   }}
                 />
               </Box>

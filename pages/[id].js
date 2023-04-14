@@ -134,7 +134,12 @@ export default function PokemonDetails({ pokemon }) {
                     alt={pokemon.name}
                   />
                 </Stack>
-                <Typography variant="h6">
+                <Typography
+                  sx={{
+                    color: "#000",
+                  }}
+                  variant="h6"
+                >
                   <span
                     style={{
                       color: "purple",
@@ -146,7 +151,12 @@ export default function PokemonDetails({ pokemon }) {
                   </span>
                   : {pokemon.number}
                 </Typography>
-                <Typography variant="h6">
+                <Typography
+                  sx={{
+                    color: "#000",
+                  }}
+                  variant="h6"
+                >
                   <span
                     style={{
                       color: "purple",
@@ -158,7 +168,12 @@ export default function PokemonDetails({ pokemon }) {
                   </span>
                   : {pokemon.classification}
                 </Typography>
-                <Typography variant="h6">
+                <Typography
+                  sx={{
+                    color: "#000",
+                  }}
+                  variant="h6"
+                >
                   <span
                     style={{
                       color: "purple",
@@ -170,7 +185,12 @@ export default function PokemonDetails({ pokemon }) {
                   </span>
                   : {pokemon.types.join(", ")}
                 </Typography>
-                <Typography variant="h6">
+                <Typography
+                  sx={{
+                    color: "#000",
+                  }}
+                  variant="h6"
+                >
                   <span
                     style={{
                       color: "purple",
@@ -182,7 +202,12 @@ export default function PokemonDetails({ pokemon }) {
                   </span>
                   : {pokemon.resistant.join(", ")}
                 </Typography>
-                <Typography variant="h6">
+                <Typography
+                  sx={{
+                    color: "#000",
+                  }}
+                  variant="h6"
+                >
                   <span
                     style={{
                       color: "purple",
@@ -194,7 +219,12 @@ export default function PokemonDetails({ pokemon }) {
                   </span>
                   : {pokemon.weaknesses.join(", ")}
                 </Typography>
-                <Typography variant="h6">
+                <Typography
+                  sx={{
+                    color: "#000",
+                  }}
+                  variant="h6"
+                >
                   <span
                     style={{
                       color: "purple",
@@ -206,7 +236,12 @@ export default function PokemonDetails({ pokemon }) {
                   </span>
                   : {pokemon.weight.minimum} - {pokemon.weight.maximum}
                 </Typography>
-                <Typography variant="h6">
+                <Typography
+                  sx={{
+                    color: "#000",
+                  }}
+                  variant="h6"
+                >
                   <span
                     style={{
                       color: "purple",
